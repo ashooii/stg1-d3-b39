@@ -1,0 +1,116 @@
+nav {
+    background-color: whitesmoke;
+    display: flex;
+    height: 7vh;
+}
+
+.image {
+    width: 50px;
+}
+
+.nav-left {
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+    flex: 50%;
+}
+
+.nav-left li {
+    display: inline;
+}
+
+.nav-left ul {
+    display: flex;
+}
+
+.nav-left ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav-right {
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.nav-right a {
+    background-color: rgb(34, 32, 32);
+    color: white;
+    padding: 8px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(230, 231, 233);
+    font-family: sans-serif;
+}
+
+.title{
+    text-align: center;
+    padding: 30px;
+    font-size: 28px;
+}
+
+form {
+    width: 400px;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+form div {
+    margin-top: 15px;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+form input, select, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5x;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+form input{
+    box-shadow: 0px 0px 4px rgb(172, 169, 169);
+}
+
+form select{
+    box-shadow: 0px 0px 4px rgb(172, 169, 169);
+}
+
+form textarea{
+    box-shadow: 0px 0px 4px rgb(172, 169, 169);
+    resize: none;
+}
+
+button {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.submit{
+    display: flex;
+    padding: 20px auto;
+    justify-content: end;
+    align-items: center;
+}
